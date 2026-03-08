@@ -15,15 +15,15 @@ GlowReview  is a website where users can discover and review beauty products (ma
 - REST API via Supabase client
 - Cloud hosting (Vercel or Netlify)
 # Core Features
-1. Authentication
+## 1. Authentication
 - Sign up
 - Log in
 - Log out
 - Persistent session
 - User profile page
-2. Product Catalog
-Users can browse beauty products across categories.
-Each product page will display:
+## 2. Product Catalog
+- Users can browse beauty products across categories.
+- Each product page will display:
 - Product name
 - Brand
 - Category (makeup, skincare, haircare)
@@ -32,27 +32,27 @@ Each product page will display:
 - Average rating
 - List of user reviews
 - The product database will initially be seeded manually with product information.
-3. Reviews
+## 3. Reviews
 - Users can leave reviews for products.
 - Review fields:
 - Rating (1–5 stars)
 - Written review
 - Date posted
 - Author
-Users can:
+- Users can:
 - Post reviews
 - View reviews from other users
 - Edit reviews
 - Delete reviews
-4. Favorites
+## 4. Favorites
 - Users can save products they want to revisit.
-Features:
+- Features:
 - Add product to favorites
 - Remove product from favorites
 - View saved products on profile page
-5. Profile Page
+## 5. Profile Page
 - Each user has a personal profile.
-Displays:
+- Displays:
 - Username
 - List of reviews written
 - Settings

@@ -1,7 +1,6 @@
-# React + Vite
-- GlowReview  is a website where users can discover and review beauty products (makeup, hair, skincare, etc.) all in one place. The main pages are home, discover, and profile. The site is built using Vite + React for the front end, Supabase for the backend, and PostgreSQL (via Supabase) for the database. 
+GlowReview  is a website where users can discover and review beauty products (makeup, hair, skincare, etc.) all in one place. The main pages are home, discover, and profile. The site is built using Vite + React for the front end, Supabase for the backend, and PostgreSQL (via Supabase) for the database. 
 
-> Tech Stack
+##Tech Stack
 >> Frontend
 - React
 - Vite

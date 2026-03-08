@@ -1,23 +1,23 @@
 GlowReview  is a website where users can discover and review beauty products (makeup, hair, skincare, etc.) all in one place. The main pages are home, discover, and profile. The site is built using Vite + React for the front end, Supabase for the backend, and PostgreSQL (via Supabase) for the database. 
 
-##Tech Stack
->> Frontend
+# Tech Stack
+## Frontend
 - React
 - Vite
 - React Router
-- CSS 
->>Backend
+- CSS
+## Backend
 - Supabase
->> Database
+## Database
 - PostgreSQL (via Supabase)
->> Other Features
+## Other Features
 - Supabase authentication
 - REST API via Supabase client
 - Cloud hosting (Vercel or Netlify)
-> Core Features
+# Core Features
 1. Authentication
 - Users must have accounts to write reviews or save favorites.
->> Features:
+## Features:
 - Sign up
 - Log in
 - Log out
@@ -27,7 +27,7 @@ GlowReview  is a website where users can discover and review beauty products (ma
 - Users can browse beauty products across categories.
 - Each product page will display:
 - Product name
-Brand
+- Brand
 - Category (makeup, skincare, haircare)
 - Product image
 - Description
@@ -41,37 +41,37 @@ Brand
 - Written review
 - Date posted
 - Author
->> Users can:
+## Users can:
 - Post reviews
 - View reviews from other users
 - Edit reviews
 - Delete reviews
 4. Favorites
 - Users can save products they want to revisit.
->>Features:
+## Features:
 - Add product to favorites
 - Remove product from favorites
 - View saved products on profile page
 5. Profile Page
 - Each user has a personal profile.
->>Displays:
+## Displays:
 - Username
 - List of reviews written
 - Settings
-> Main Pages
->> Home Page
+# Main Pages
+## Home Page
 - Featured products
 - Recently reviewed products
 - Categories (makeup, skincare, haircare)
 - Favorites list
 - Purpose: product discovery.
->> Product Page
+## Product Page
 - Product details
 - Average rating
 - All user reviews
 - Button to add review
 - Button to favorite product
->> Profile Page
+## Profile Page
 - User information
 - User reviews
 - Favorites list

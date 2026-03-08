@@ -16,16 +16,14 @@ GlowReview  is a website where users can discover and review beauty products (ma
 - Cloud hosting (Vercel or Netlify)
 # Core Features
 1. Authentication
-- Users must have accounts to write reviews or save favorites.
-## Features:
 - Sign up
 - Log in
 - Log out
 - Persistent session
 - User profile page
 2. Product Catalog
-- Users can browse beauty products across categories.
-- Each product page will display:
+Users can browse beauty products across categories.
+Each product page will display:
 - Product name
 - Brand
 - Category (makeup, skincare, haircare)
@@ -41,20 +39,20 @@ GlowReview  is a website where users can discover and review beauty products (ma
 - Written review
 - Date posted
 - Author
-## Users can:
+Users can:
 - Post reviews
 - View reviews from other users
 - Edit reviews
 - Delete reviews
 4. Favorites
 - Users can save products they want to revisit.
-## Features:
+Features:
 - Add product to favorites
 - Remove product from favorites
 - View saved products on profile page
 5. Profile Page
 - Each user has a personal profile.
-## Displays:
+Displays:
 - Username
 - List of reviews written
 - Settings

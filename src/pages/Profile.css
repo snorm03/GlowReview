@@ -1,0 +1,188 @@
+.profile {
+  padding: 3rem 0 4rem;
+}
+
+/* ── Profile Header ── */
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.avatar-placeholder {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.avatar-initials {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.profile-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.profile-display-name {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  color: var(--color-secondary);
+}
+
+.profile-username {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.profile-bio {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  max-width: 400px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Stats ── */
+.profile-stats {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 2rem;
+  box-shadow: var(--shadow-sm);
+  width: fit-content;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.stat-value {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 36px;
+  background-color: var(--color-border);
+}
+
+/* ── Section Title ── */
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+  margin-bottom: 1.25rem;
+}
+
+/* ── Review List ── */
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.review-item {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: box-shadow 0.2s;
+}
+
+.review-item:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.review-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.review-product {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.review-brand {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin-top: 0.1rem;
+}
+
+.review-item-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+.stars {
+  color: var(--color-primary);
+  font-size: 0.95rem;
+}
+
+.review-date {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.review-excerpt {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+/* ── Responsive ── */
+@media (max-width: 520px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-bio {
+    max-width: 100%;
+  }
+
+  .profile-stats {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,131 @@
+/* ── Hero ── */
+.hero {
+  background: linear-gradient(135deg, #fdf0f4 0%, #fdf6f0 100%);
+  padding: 5rem 0 4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.hero-heading {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  line-height: 1.2;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.hero-heading em {
+  font-style: italic;
+  color: var(--color-primary);
+}
+
+.hero-tagline {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  max-width: 480px;
+  margin: 0 auto 2rem;
+}
+
+.hero-cta {
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+}
+
+/* ── Categories ── */
+.categories {
+  padding: 3rem 0 2rem;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.category-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chip {
+  background-color: var(--color-chip-bg);
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-border);
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.chip:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+/* ── Featured Reviews ── */
+.featured-reviews {
+  padding: 3rem 0 4rem;
+}
+
+.review-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.review-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: box-shadow 0.2s;
+}
+
+.review-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.review-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.review-product {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.review-brand {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin-top: 0.1rem;
+}
+
+.stars {
+  color: var(--color-primary);
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.review-excerpt {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.review-author {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
